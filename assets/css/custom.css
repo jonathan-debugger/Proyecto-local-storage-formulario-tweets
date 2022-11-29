@@ -1,0 +1,21 @@
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+
+#lista-tweets li{
+    position: relative;
+}
+
+.borrar-tweet,
+.borrar-tweet:hover {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
